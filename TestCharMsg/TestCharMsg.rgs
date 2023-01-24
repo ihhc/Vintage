@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{1396BB5F-C657-4DE0-84F1-916A5F9FFC23} = s 'TestCharMsg'
+		'TestCharMsg.EXE'
+		{
+			val AppID = s {1396BB5F-C657-4DE0-84F1-916A5F9FFC23}
+		}
+	}
+}

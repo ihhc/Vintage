@@ -1,0 +1,20 @@
+// TestCharMsg.idl : IDL source for TestCharMsg.exe
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TestCharMsg.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(E5D78D9F-65B9-40DA-A044-122D704F10E2),
+	version(1.0),
+	helpstring("TestCharMsg 1.0 Type Library")
+]
+library TestCharMsgLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

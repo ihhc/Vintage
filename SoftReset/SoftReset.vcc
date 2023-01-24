@@ -1,0 +1,39 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=CSoftResetDlg
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "SoftReset.h"
+
+ClassCount=3
+Class1=CSoftResetApp
+Class2=CSoftResetDlg
+
+ResourceCount=3
+Resource2=IDR_MAINFRAME
+Resource3=IDD_SOFTRESET_DIALOG
+
+[CLS:CSoftResetApp]
+Type=0
+HeaderFile=SoftReset.h
+ImplementationFile=SoftReset.cpp
+Filter=N
+
+[CLS:CSoftResetDlg]
+Type=0
+HeaderFile=SoftResetDlg.h
+ImplementationFile=SoftResetDlg.cpp
+Filter=D
+BaseClass=CDialog
+VirtualFilter=dWC
+
+
+[DLG:IDD_SOFTRESET_DIALOG]
+Type=1
+Class=CSoftResetDlg
+ControlCount=2
+Control1=IDC_RESET,button,1342243584
+Control2=IDCANCEL,button,1342243584
+
